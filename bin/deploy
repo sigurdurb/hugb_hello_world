@@ -1,0 +1,5 @@
+#!/bin/bash
+./gredlew installDist
+cp -r ./build/libs/hugb_hello_world.jar ./build/tmp/ 
+export PORT=4567
+./build/tmp/hugb_hello_world/bin/hugb_hello_world
